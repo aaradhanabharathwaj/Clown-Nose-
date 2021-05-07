@@ -1,0 +1,12 @@
+.btn-danger:hover{
+    background-color: darkgoldenrod;
+}
+canvas{
+    animation-name:example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes example{
+from{box-shadow: 15px 15px 38px black;}
+to{box-shadow: 15px 15px 38px darkorange}
+}
